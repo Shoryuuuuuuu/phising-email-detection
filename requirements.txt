@@ -1,5 +1,6 @@
 flask==3.0.3
-torch>=2.0.0
+torch==2.0.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 transformers>=4.44.0
 safetensors>=0.4.3
 gunicorn==23.0.0
+
